@@ -1,0 +1,83 @@
+.projects{
+    padding: 60px 0;
+}
+
+.project-title-inner{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.project-title {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.project-title:after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 116px;
+    height: 4px;
+    width: 70px;
+    border-radius: 4px;
+    background-color: brown;
+}
+
+.projects-inner{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project{
+    margin: 0 10px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.project a{
+    border-radius: inherit;
+}
+
+.project-img{
+    width: 360px;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+    border-radius: inherit;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    border-radius: inherit;
+    transition: .5s ease;
+    background-color: rgba(54, 54, 54, 0.7);
+  }
+  
+  .project:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }

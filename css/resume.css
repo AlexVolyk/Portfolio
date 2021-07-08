@@ -1,0 +1,36 @@
+.resume{
+    background: url('/img/wood-wall.jpg') center center fixed no-repeat;
+    background-size: cover;
+}
+
+.resume-inner{
+    padding: 100px 0;
+}
+
+.resume-text{
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+.resume-btn-link{
+    padding: 15px 20px;
+    color: black;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #c7c7c763;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.resume-btn-link:hover{
+    color: white;
+    transition: 0.3s;
+    transition-property: color;
+}

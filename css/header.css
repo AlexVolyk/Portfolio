@@ -1,0 +1,51 @@
+.jumbotron {
+    background: url("/img/bg-top.jpg") center bottom no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.container > h1 {
+    padding-top:  40vh;
+}
+
+.marquee{
+    width: 300px;
+}
+
+
+.line-inner{
+    width: 260px;
+    margin: 0 auto;
+}
+
+.line{
+    user-select: none;
+    width: 100px;
+    border-radius: 10px;
+    height: 10px;
+    animation-name: box;
+    position: relative;
+    background-color: rgb(255 255 255 / 92%);
+    position: relative;
+    animation-name:box;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes box{
+
+    0% {
+    left: 0%;
+    }
+    100% {
+    left: 60%;
+    }
+
+}

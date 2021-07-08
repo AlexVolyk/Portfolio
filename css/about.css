@@ -1,0 +1,90 @@
+.about{
+    padding: 60px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.about-title-inner{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.about-title{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+}
+
+.about-title:after{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 116px;
+    height: 4px;
+    width: 70px;
+    border-radius: 4px;
+    background-color: brown;
+}
+
+.about-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    display: block;
+} 
+
+.about-me{
+    color: white;
+}
+
+.EFA{
+    color: white; /* blue colors for links too */
+    font-style: italic;
+    font-weight: 800;
+    text-decoration: inherit; /* no underline */
+    transition: 0.3s;
+    transition-property: color;
+    position: relative;
+}
+
+.EFA:hover{
+    color: blue;
+    transition: 0.3s;
+    transition-property: color;
+}
+
+.EFA .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(206, 206, 206, 0.12);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    transition: 0.1s;
+    transition-property:visibility;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.EFA:hover .tooltiptext {
+    visibility: visible;
+    transition: 0.1s;
+    transition-property: visibility;
+}
+
+.skills-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skills-list ul > li{
+    color: white;
+}
