@@ -65,13 +65,13 @@
     border-radius: inherit;
     transition: .5s ease;
     background-color: rgba(54, 54, 54, 0.7);
-  }
-  
-  .project:hover .overlay {
+}
+
+.project:hover .overlay {
     opacity: 1;
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -80,4 +80,4 @@
     text-align: center;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-  }
+}

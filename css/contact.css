@@ -1,6 +1,6 @@
 .contact{
     padding: 60px 0;
-    background: url('/img/contact-background.png') center center fixed no-repeat;
+    background: url('../img/contact-background.png') center center fixed no-repeat;
     background-size: cover;
     background-color: rgb(255, 255, 255);
 }
