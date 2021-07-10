@@ -8,6 +8,6 @@ window.addEventListener('load', () => {
         b.postion = "relative";
 
         mask.remove();
-    }, 500)
+    }, 1500)
 });
 
