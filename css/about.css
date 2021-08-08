@@ -83,6 +83,7 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
+    text-shadow: -2px 3px 4px brown; /* maybe add maybe not */
 }
 
 .skills-list ul > li{
