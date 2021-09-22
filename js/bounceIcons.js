@@ -1,9 +1,5 @@
-let github = document.getElementById('github-icon')
-let linkedin = document.getElementById('linkedin-icon')
-// github.addEventListener('mouseover', add_GithubClass)
-// github.addEventListener('mouseout', remove_GithubClass)
-// linkedin.addEventListener('mouseover', add_LinkedinClass)
-// linkedin.addEventListener('mouseout', remove_GithubClass)
+const github = document.getElementById('github-icon')
+const linkedin = document.getElementById('linkedin-icon')
 
 
 function add_GithubClass() {
